@@ -1,0 +1,25 @@
+Link da Playlist: https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1
+
+Aula 04:
+
+    Criar um Alerta: window.alert()
+    Criar Uma pergunta de escolha multipla +-: window.confirm()
+    Criar uma pergunta que recebe Texto: window.prompt()
+Aula 05:
+    Simbolo de comentario igual a 'C': // /* */
+    Declaracao de Variavel: var "nomeDaVariavel" = "Conteudo"
+    Tipos de Variaveis
+    Funcao para descobrir o tipo de variavel: typeof "var"
+Aula 06:
+    Simbolo '+' serve para adicao e concatenacao
+    Casting: 
+        Numeros: Number.parseInt(n), Number.parseFloat(n) ou usar Number(n)
+        Strings: String(n), .toString(n)
+    Template String: `O nome que escreveu foi ${nome}`
+    Funcao para encontrar o tamanho da String: .lenght
+    Funcao para transformar a String toda em maiusculas ou minusculas: .toUpperCase(), .toLowerCase()
+    Funcao para defenir casas decimais: .toFixed(Numero de casas decimais)
+    Funcao para substituir um caracter por outro: .replace('caracterParaTirar', 'caracterParaSubstituir')
+    Funcao para imprimir o valor de dinheiro: .toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'})
+Aula 07:
+    
