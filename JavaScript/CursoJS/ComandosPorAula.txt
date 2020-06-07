@@ -22,4 +22,12 @@ Aula 06:
     Funcao para substituir um caracter por outro: .replace('caracterParaTirar', 'caracterParaSubstituir')
     Funcao para imprimir o valor de dinheiro: .toLocaleString('pt-PT', {style: 'currency', currency: 'EUR'})
 Aula 07:
+    Operadores Aritméticos e de Atrubuiçao
+    Ordem de Precedencia dos Operadores Aritméticos
+Aula 08:
+    Operadores Relacionais de Identidade e Logicos
+    Oredem de Precedencia de todos os tipos de Operadores
+    Operador Ternário <-- Operador novo
+Aula 09:
+    Arvore DOM
     
