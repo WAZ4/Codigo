@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar de Velocidade</title>
+</head>
+<body>
+    <h1>Simtema de Multas</h1>
+    Velocidade do Carro: <input type="number" name="txtvel" id="txtvel">Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id = 'res'></div>
+    <script>
+        function calcular() {
+            var txtvel = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var vel = Number(txtvel.value)
+            
+            if (vel > 60) {
+                res.innerHTML= `Levou multa porque ultrapassou o limite de 60Km/h por ${vel-60}`
+            }
+            res.innerHTML += `<p>Dirija Sempre com cinto de seguranca</p>`
+
+        }
+    </script>
+</body>
+</html>

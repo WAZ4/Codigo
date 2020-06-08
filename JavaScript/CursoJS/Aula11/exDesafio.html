@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Portugues ou nao?</h1>
+    Qual e o seu pais? <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id='res'>a</div>
+
+    <script>
+        function calcular() {
+            var pais = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#res')
+            
+            console.log(pais)
+            if (pais.value == "Portugal") {
+                res.innerHTML = 'Es um <strong>TUGA</strong>'
+            } else {
+                res.innerHTML = 'Es um <strong>Estrangeiro</strong>'
+                
+            }
+        }
+    </script>
+</body>
+</html>

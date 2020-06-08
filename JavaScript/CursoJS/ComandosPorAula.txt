@@ -15,7 +15,7 @@ Aula 06:
     Casting: 
         Numeros: Number.parseInt(n), Number.parseFloat(n) ou usar Number(n)
         Strings: String(n), .toString(n)
-    Template String: `O nome que escreveu foi ${nome}`
+    Template String: `O nome que escreveu foi ${nome}` <-- Importante
     Funcao para encontrar o tamanho da String: .lenght
     Funcao para transformar a String toda em maiusculas ou minusculas: .toUpperCase(), .toLowerCase()
     Funcao para defenir casas decimais: .toFixed(Numero de casas decimais)
@@ -27,7 +27,16 @@ Aula 07:
 Aula 08:
     Operadores Relacionais de Identidade e Logicos
     Oredem de Precedencia de todos os tipos de Operadores
-    Operador Ternário <-- Operador novo
+    Operador Ternário <-- Operador novo Importante
 Aula 09:
     Arvore DOM
-    
+    .getElementBy...
+Aula 10:
+    Eventos
+    Criar Funcoes
+Aula 11:
+    Condicoes: if, else...
+
+Aula 12:
+    Condicoes: else if, switch...
+    Hora atual do Sistema
