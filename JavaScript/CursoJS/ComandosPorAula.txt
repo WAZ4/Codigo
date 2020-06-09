@@ -40,3 +40,19 @@ Aula 11:
 Aula 12:
     Condicoes: else if, switch...
     Hora atual do Sistema
+    Adicionar imagens pelo JavaScript
+Aula 13:
+    Repeticoes: While, do...While
+Aula 14:
+    Repeticoes: For
+Aula 15:
+    Variaveis Compostas: Vetores
+    .push() <-- valor a inserir
+    .sort()
+    .lenght
+    .indexOf() <-- valor a procurar
+Aula 16:
+    Funcoes: parametros, e returns
+    Funcoes: declaracao de parametros
+    Funcoes: predefinicao de Ponteiros
+    Funcoes: Funcoes recursivas
