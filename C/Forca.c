@@ -29,7 +29,7 @@ void codificarFrase(){
 
 void limparEcra(){
 	int i;
-	for (i; i <= 500; i++){
+	for (i = 0; i <= 500; i++){
 		printf("\n");
 	}
 }
